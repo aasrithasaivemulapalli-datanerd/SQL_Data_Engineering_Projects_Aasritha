@@ -20,19 +20,19 @@ HAVING COUNT(DISTINCT jpf.job_country) >= 2
 order by total_data_engineer_jobs desc
 limit 10;
 
-/* output : ┌─────────────────────────────────────────────┬─────────────────────┬──────────────────────────┐
-│                    name                     │ number_of_countries │ total_data_engineer_jobs │
-│                   varchar                   │        int64        │          int64           │
-├─────────────────────────────────────────────┼─────────────────────┼──────────────────────────┤
-│ Upwork                                      │                 110 │                      110 │
-│ VirtualVocations                            │                  77 │                       77 │
-│ Free-Work (ex Freelance-info Carriere-info) │                  75 │                       75 │
-│ JPMorgan Chase Bank, N.A.                   │                  63 │                       63 │
-│ Dice                                        │                  63 │                       63 │
-│ Infy Mexico                                 │                  62 │                       62 │
-│ BI SOLUTIONS                                │                  60 │                       60 │
-│ SPG Consulting                              │                  57 │                       57 │
-│ Zoom                                        │                  55 │                       55 │
-│ SOFTHQ INC                                  │                  54 │                       54 │
-└─────────────────────────────────────────────┴─────────────────────┴──────────────────────────┘
-  10 rows                                                                            3 column */
+/* output : ┌───────────────────────────┬─────────────────────┬──────────────────────────┐
+│           name            │ number_of_countries │ total_data_engineer_jobs │
+│          varchar          │        int64        │          int64           │
+├───────────────────────────┼─────────────────────┼──────────────────────────┤
+│ Upwork                    │                   2 │                      110 │
+│ VirtualVocations          │                   2 │                       77 │
+│ Dice                      │                   2 │                       63 │
+│ Jobs via Dice             │                   2 │                       50 │
+│ Confidential              │                   2 │                       50 │
+│ Capgemini                 │                   8 │                       44 │
+│ Diverse Lynx              │                   5 │                       40 │
+│ Cognizant                 │                   5 │                       35 │
+│ Tata Consultancy Services │                   8 │                       35 │
+│ Fullstack Labs            │                   5 │                       33 │
+└───────────────────────────┴─────────────────────┴──────────────────────────┘
+  10 rows                                                          3 columns */
