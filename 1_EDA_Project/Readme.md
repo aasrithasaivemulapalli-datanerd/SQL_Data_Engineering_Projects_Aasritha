@@ -15,6 +15,7 @@ A SQL project analyzing the data engineer job market using real world job postin
 1. [`01_top_demanded_skills.sql`](01_top_demanded_skills.sql) – Identifies the 10 most in-demand skills for remote data engineer positions
 2. [`02_top_paying_skills.sql`](02_Top_Paying_Skills.sql) – Analyzes the 20 highest-paying skills with salary and demand metrics
 3. [`03_optimal_skills.sql`](03_Optimal_Skills.sql) – Calculates an optimal score using natural log of demand combined with median salary to identify the most valuable skills to learn
+4. [`04_Company_data_engineer_jobs.sql`](1_EDA_Project/04_Company_data_engineer_jobs.sql) - Gives the top 10 companies who have posted the highest number of data engineer jobs
 
 
 # Problem & Context
